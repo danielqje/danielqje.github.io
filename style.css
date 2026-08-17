@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    front-family: Arial, Helvetica, sans-serif;
+  background-color: #07111f;
+  color: #f5f7af;
+  line-height: 1.6;
+}
+
+main,
+body > h1,
+body > h2,
+body > p {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 80px;
+}
+
+h2 {
+    margin-top: 50px;
+    color: #8ec5ff;
+}
+
+p {
+  font-size: 1.05rem;
+  color: #d7e0ea;
+}
+
+a {
+  color: #8ec5ff;
+  text-decoration: none;
+}
+
+a"hover {
+    text-decoration: underline;
+}
