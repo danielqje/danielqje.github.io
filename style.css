@@ -40,7 +40,7 @@ nav {
 
 .hero {
     min-height: 85vh;
-    padding: 35px 8% 80px 8%;
+    padding: 5px 8% 80px 8%;
     display: grid;
     grid-template-columns: 220px 1fr;
     gap: 60px;
@@ -59,6 +59,7 @@ nav {
     justify-self: start;
     width: 220px;
     margin-top:-40px;
+    margin-left: 25px
 }
 
 .profile-photo {
