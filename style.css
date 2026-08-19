@@ -47,7 +47,7 @@ nav {
     align-items: start;
 
     background:
-        linear-gradient(rgba(4, 7, 15, 0.25), rgba(4, 7, 15, 0.35)),
+        linear-gradient(rgba(4, 7, 15, 0.15), rgba(4, 7, 15, 0.25)),
         url("Crab Nebula.jpg");
 
     background-size: cover;
