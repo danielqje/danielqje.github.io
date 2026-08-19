@@ -47,11 +47,11 @@ nav {
     align-items: center;
 
     background:
-        linear-gradient(rgba(4, 7, 15, 0.72), rgba(4, 7, 15, 0.82)),
+        linear-gradient(rgba(4, 7, 15, 0.45), rgba(4, 7, 15, 0.55)),
         url("Crab Nebula.jpg");
 
     background-size: cover;
-    background-position: center;
+    background-position: center center;
 }
 
 .profile-column {
