@@ -106,8 +106,6 @@ nav {
 .about-column {
     background: rgba(5, 10, 20, 0.58);
     padding: 35px;
-    border-radius: 18px;
-    backdrop-filter: blur(8px);
 }
 
 .about-column h2 {
@@ -120,6 +118,7 @@ nav {
     grid-template-columns: 1fr 1fr;
     gap: 45px;
     margin-top: 35px;
+    align-items: start;
 }
 
 section:not(.hero) {
