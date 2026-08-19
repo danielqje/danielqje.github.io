@@ -60,7 +60,8 @@ nav {
     width: 220px;
     
     position: relative;
-    left: 20px
+    top: 40px
+    left: 5px
 }
 
 .profile-photo {
