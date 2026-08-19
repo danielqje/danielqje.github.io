@@ -40,9 +40,9 @@ nav {
 
 .hero {
     min-height: 85vh;
-    padding: 80px 8%;
+    padding: 35px 8% 80px 8%;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 220px 1fr;
     gap: 60px;
     align-items: start;
 
@@ -56,9 +56,9 @@ nav {
 
 .profile-column {
     text-align: center;
-    padding-top: -40px;
     justify-self: start;
     width: 220px;
+    margin-top:-40px;
 }
 
 .profile-photo {
