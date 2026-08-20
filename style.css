@@ -40,7 +40,7 @@ nav {
 
 .nav-links a:hover {
     text-decoration: underline;
-    transform: scale(1.08);
+    transform: scale(1.05);
 }
 
 .nav-links a:not(.home-link):hover {
