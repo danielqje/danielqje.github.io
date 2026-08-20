@@ -271,12 +271,6 @@ footer {
     transform: scale(1.05);
 }
 
-.research-page {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 70px 8%;
-}
-
 .research-page h1 {
     font-size: 2rem;
 }
@@ -310,7 +304,7 @@ footer {
     padding: 70px 8%;
 
     background:
-        linear-gradient(rgba(5, 7, 13, 0.82), rgba(5, 7, 13, 0.82)),
+        linear-gradient(rgba(5, 7, 13, 0.82), rgba(5, 7, 13, 0.75)),
         url("Elliptical Galaxy.jpg");
 
     background-size: cover;
