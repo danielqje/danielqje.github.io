@@ -118,8 +118,8 @@ nav {
 
 .profile-text {
     position: relative;
-    top: -30px;
-    margin-bottom: -30px;
+    top: 0;
+    margin-bottom: 0;
 }
 
 .title {
