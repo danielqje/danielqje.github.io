@@ -406,6 +406,44 @@ a {
 }
 
 /* =========================
+   ACADEMIC EXPERIENCE
+   ========================= */
+
+.experience-section {
+    padding: 80px 8%;
+}
+
+.experience-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.experience-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+    padding: 24px;
+    max-width: 900px;
+}
+
+.experience-card h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 1.3rem;
+}
+
+.experience-role {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.experience-description {
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* =========================
    FOOTER
    ========================= */
 
