@@ -68,9 +68,9 @@ nav {
 
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 2;
 
-    height: 2px;
+    height: 1.5px;
     background: white;
 
     transform: scaleX(0);
