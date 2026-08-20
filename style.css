@@ -169,6 +169,13 @@ a {
 
 .cap {
     margin-right: 11px;
+    font-size: 18px;
+    color: white;
+}
+
+.home-link i {
+    font-size: 18px;
+    color: white;
 }
 
 footer {
