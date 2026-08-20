@@ -7,21 +7,29 @@
 
     <title>Research | Daniel Quezada Jimenez</title>
 
+    <!-- Font Awesome Icons -->
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
+    <!-- Main CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- =========================
+         HEADER
+         ========================= -->
+
     <header>
         <nav>
+
             <div class="logo">
                 Daniel Quezada Jimenez
             </div>
 
             <div class="nav-links">
+
                 <a href="index.html" class="home-link">
                     <i class="fa-solid fa-house"></i>
                 </a>
@@ -30,9 +38,16 @@
                 <a href="experience.html">Experience</a>
                 <a href="projects.html">Projects</a>
                 <a href="contact.html">Contact</a>
+
             </div>
+
         </nav>
     </header>
+
+
+    <!-- =========================
+         MAIN RESEARCH PAGE
+         ========================= -->
 
     <main>
 
@@ -42,60 +57,597 @@
 
             <div class="research-project">
 
+                <!-- =========================
+                     PROJECT INTRODUCTION
+                     ========================= -->
+
                 <h2>Stellar Na I D Absorption in Elliptical Galaxies</h2>
 
                 <p class="research-program">
-                    Summer Research Program - STARTAstro — University of California San Diego (UCSD) & San Diego State University (SDSU).
+                    STARTAstro Summer Research Program —
+                    University of California, San Diego (UCSD) &
+                    San Diego State University (SDSU)
                 </p>
 
                 <p>
-                    Conducted my research under the mentorship of Dr. Kate Rubin at UCSD & SDSU, with majority of the work done at SDSU.
+                    Conducted research under the mentorship of Dr. Kate Rubin
+                    through UCSD and SDSU, with the majority of the work
+                    carried out at SDSU.
+                </p>
 
                 <p>
                     My current research investigates how stellar populations
                     contribute to the Na I D absorption feature in elliptical
-                    galaxy spectra and how this absorption can affect the
-                    interpretation of gas inflows.
+                    galaxy spectra and how this stellar absorption can affect
+                    the interpretation of gas inflows.
                 </p>
 
-                <h3>Research Focus</h3>
 
-                <p>
-                    Na I D absorption can be produced by both stars and
-                    interstellar gas. Understanding the stellar contribution
-                    is therefore important when using Na I D to identify
-                    signatures of gas moving into or out of galaxies.
-                </p>
+                <!-- =========================
+                     RESEARCH MOTIVATION
+                     ========================= -->
 
                 <h3>Research Motivation</h3>
 
                 <p>
-                    Elliptical galaxies show evidence of inflowing gas, and the Na I D
-                    absorption feature can be used to trace that gas. However, stars also
-                    naturally produce Na I D absorption, which complicates the interpretation.
-                    Because the stellar Na I D feature changes with the alpha-to-iron abundance
-                    ratio, the stellar contribution must be modeled accurately before excess
-                    Na I D absorption can be interpreted as evidence of inflowing gas.
-                 </p>
+                    Elliptical galaxies show evidence of inflowing gas, and the
+                    Na I D absorption feature can be used to trace that gas.
+                    However, stars also naturally produce Na I D absorption,
+                    which complicates the interpretation. Because the stellar
+                    Na I D feature changes with the alpha-to-iron abundance
+                    ratio, the stellar contribution must be modeled accurately
+                    before excess Na I D absorption can be interpreted as
+                    evidence of inflowing gas.
+                </p>
+
+
+                <!-- =========================
+                     METHODS
+                     ========================= -->
 
                 <h3>Methods</h3>
 
                 <ul>
-                    <li>Analyzed model stellar population spectra</li>
-                    <li>Examined changes in Na I D with varying alpha-element abundances</li>
-                    <li>Performed continuum normalization around the Na I D region</li>
-                    <li>Modeled the Na I D doublet using double-Gaussian fits</li>
-                    <li>Calculated the ratio between the normalized spectrum and optimized Gaussian fit</li>
-                    <li>Used ratio residuals to identify excess absorption not captured by the stellars model</li>
-                    <li>Compared observed spectral absorption with fitted models</li>
-                    <li>Used Python for spectral analysis and visualization</li>
+                    <li>
+                        Analyzed simple stellar population model spectra
+                    </li>
+
+                    <li>
+                        Examined changes in Na I D absorption across different
+                        alpha-to-iron abundance ratios
+                    </li>
+
+                    <li>
+                        Converted wavelength measurements from air wavelengths
+                        to vacuum wavelengths
+                    </li>
+
+                    <li>
+                        Isolated the Na I D spectral region
+                    </li>
+
+                    <li>
+                        Performed continuum fitting around the Na I D region
+                        using Legendre polynomials
+                    </li>
+
+                    <li>
+                        Performed continuum normalization of the spectra
+                    </li>
+
+                    <li>
+                        Modeled the Na I D doublet using two Gaussian components
+                    </li>
+
+                    <li>
+                        Developed manual double-Gaussian trial models to examine
+                        the behavior of the Na I D absorption feature
+                    </li>
+
+                    <li>
+                        Optimized the Gaussian parameters using SciPy
+                        <code>curve_fit</code>
+                    </li>
+
+                    <li>
+                        Calculated ratios between the continuum-normalized
+                        spectra and optimized Gaussian models
+                    </li>
+
+                    <li>
+                        Used ratio residuals to identify absorption not fully
+                        reproduced by the Gaussian stellar model
+                    </li>
+
+                    <li>
+                        Compared the behavior of the models across
+                        [α/Fe] = -0.2, 0.0, 0.2, 0.4, and 0.6
+                    </li>
                 </ul>
+
+
+                <!-- =========================
+                     TOOLS
+                     ========================= -->
 
                 <h3>Tools</h3>
 
                 <p>
-                    Python • NumPy • Matplotlib • SciPy • Astropy • Specutils • Jupyter
+                    Python • NumPy • Matplotlib • SciPy (curve_fit) •
+                    Astropy • Specutils • Jupyter
                 </p>
+
+                <p>
+                    Related research tool/background: ALFα
+                </p>
+
+
+                <!-- =========================
+                     FIGURES
+                     ========================= -->
+
+                <h3>Selected Research Figures</h3>
+
+
+                <!-- =========================
+                     1. MODEL SPECTRA
+                     ========================= -->
+
+                <h4>1. Model Spectra & Na I D Region</h4>
+
+                <div class="research-figures">
+
+                    <figure>
+
+                        <a href="Figures/SSP Full Spectrum.png"
+                           target="_blank">
+
+                            <img src="Figures/SSP Full Spectrum.png"
+                                 alt="Simple stellar population spectra for different alpha-to-iron abundance ratios">
+
+                        </a>
+
+                        <figcaption>
+                            Full simple stellar population spectra across the
+                            five [α/Fe] abundance models used in the analysis.
+                        </figcaption>
+
+                    </figure>
+
+
+                    <figure>
+
+                        <a href="Figures/Na D Absorption Region.png"
+                           target="_blank">
+
+                            <img src="Figures/Na D Absorption Region.png"
+                                 alt="Na I D absorption region across different alpha-to-iron abundance ratios">
+
+                        </a>
+
+                        <figcaption>
+                            Comparison of the Na I D absorption region across
+                            the five [α/Fe] models, showing how the stellar
+                            absorption feature changes with abundance ratio.
+                        </figcaption>
+
+                    </figure>
+
+                </div>
+
+
+                <!-- =========================
+                     2. CONTINUUM
+                     ========================= -->
+
+                <h4>2. Continuum Fitting & Normalization</h4>
+
+                <div class="research-figures">
+
+                    <figure>
+
+                        <a href="Figures/Na D Continuum deg2 Fit afe0 vacuum.png"
+                           target="_blank">
+
+                            <img src="Figures/Na D Continuum deg2 Fit afe0 vacuum.png"
+                                 alt="Second-order continuum fit around the Na I D region">
+
+                        </a>
+
+                        <figcaption>
+                            Second-order Legendre continuum fit around the
+                            Na I D region for [α/Fe] = -0.2. The Na I D region
+                            was excluded while fitting the surrounding continuum.
+                        </figcaption>
+
+                    </figure>
+
+
+                    <figure>
+
+                        <a href="Figures/Na D Normalized Spectrum afe0.png"
+                           target="_blank">
+
+                            <img src="Figures/Na D Normalized Spectrum afe0.png"
+                                 alt="Continuum-normalized Na I D spectrum">
+
+                        </a>
+
+                        <figcaption>
+                            Continuum-normalized Na I D spectrum for
+                            [α/Fe] = -0.2, with the continuum placed near unity
+                            before Gaussian modeling.
+                        </figcaption>
+
+                    </figure>
+
+                </div>
+
+
+                <!-- =========================
+                     3. GAUSSIAN COMPONENTS
+                     ========================= -->
+
+                <h4>3. Double-Gaussian Model Development</h4>
+
+                <div class="research-figures">
+
+                    <figure>
+
+                        <a href="Figures/Seperate Blue & Red Gaussian Components afe0.png"
+                           target="_blank">
+
+                            <img src="Figures/Seperate Blue & Red Gaussian Components afe0.png"
+                                 alt="Separate blue and red Gaussian components of the Na I D doublet">
+
+                        </a>
+
+                        <figcaption>
+                            Separate Gaussian components representing the blue
+                            and red lines of the Na I D doublet.
+                        </figcaption>
+
+                    </figure>
+
+
+                    <figure>
+
+                        <a href="Figures/Updated Trial 6 afe0 Na D Double Gaussian with Blue and Red Components and Shaded Excess Region.png"
+                           target="_blank">
+
+                            <img src="Figures/Updated Trial 6 afe0 Na D Double Gaussian with Blue and Red Components and Shaded Excess Region.png"
+                                 alt="Manual double-Gaussian trial for alpha-to-iron minus 0.2">
+
+                        </a>
+
+                        <figcaption>
+                            Selected manual double-Gaussian trial for
+                            [α/Fe] = -0.2, including the individual Gaussian
+                            components and shaded excess absorption.
+                        </figcaption>
+
+                    </figure>
+
+
+                    <figure>
+
+                        <a href="Figures/Trial 2 afe1 Na D Double Gaussian with Blue and Red Components and Shaded Excess Region.png"
+                           target="_blank">
+
+                            <img src="Figures/Trial 2 afe1 Na D Double Gaussian with Blue and Red Components and Shaded Excess Region.png"
+                                 alt="Manual double-Gaussian trial for alpha-to-iron 0.0">
+
+                        </a>
+
+                        <figcaption>
+                            Selected manual double-Gaussian trial for
+                            [α/Fe] = 0.0.
+                        </figcaption>
+
+                    </figure>
+
+
+                    <figure>
+
+                        <a href="Figures/Trial 3 afe2 Na D Double Gaussian with Blue and Red Components and Shaded Excess Region.png"
+                           target="_blank">
+
+                            <img src="Figures/Trial 3 afe2 Na D Double Gaussian with Blue and Red Components and Shaded Excess Region.png"
+                                 alt="Manual double-Gaussian trial for alpha-to-iron 0.2">
+
+                        </a>
+
+                        <figcaption>
+                            Selected manual double-Gaussian trial for
+                            [α/Fe] = 0.2.
+                        </figcaption>
+
+                    </figure>
+
+
+                    <figure>
+
+                        <a href="Figures/Trial 4 afe3 Na D Double Gaussian with Blue and Red Components and Shaded Excess Region.png"
+                           target="_blank">
+
+                            <img src="Figures/Trial 4 afe3 Na D Double Gaussian with Blue and Red Components and Shaded Excess Region.png"
+                                 alt="Manual double-Gaussian trial for alpha-to-iron 0.4">
+
+                        </a>
+
+                        <figcaption>
+                            Selected manual double-Gaussian trial for
+                            [α/Fe] = 0.4.
+                        </figcaption>
+
+                    </figure>
+
+
+                    <figure>
+
+                        <a href="Figures/Trial 4 afe4 Na D Double Gaussian with Blue and Red Components and Shaded Excess Region.png"
+                           target="_blank">
+
+                            <img src="Figures/Trial 4 afe4 Na D Double Gaussian with Blue and Red Components and Shaded Excess Region.png"
+                                 alt="Manual double-Gaussian trial for alpha-to-iron 0.6">
+
+                        </a>
+
+                        <figcaption>
+                            Selected manual double-Gaussian trial for
+                            [α/Fe] = 0.6.
+                        </figcaption>
+
+                    </figure>
+
+                </div>
+
+
+                <!-- =========================
+                     4. OPTIMIZED FITS
+                     ========================= -->
+
+                <h4>4. Optimized Double-Gaussian Fits</h4>
+
+                <p>
+                    The manual estimates were used as starting values for
+                    nonlinear optimization with SciPy <code>curve_fit</code>.
+                    The optimized models below show the fitted stellar Na I D
+                    absorption across all five [α/Fe] abundance models.
+                </p>
+
+                <div class="research-figures">
+
+                    <figure>
+
+                        <a href="Figures/Optimized Double Gaussian Fit afe0.png"
+                           target="_blank">
+
+                            <img src="Figures/Optimized Double Gaussian Fit afe0.png"
+                                 alt="Optimized double-Gaussian fit for alpha-to-iron minus 0.2">
+
+                        </a>
+
+                        <figcaption>
+                            Optimized double-Gaussian fit for
+                            [α/Fe] = -0.2.
+                        </figcaption>
+
+                    </figure>
+
+
+                    <figure>
+
+                        <a href="Figures/Optimized Double Gaussian Fit afe1.png"
+                           target="_blank">
+
+                            <img src="Figures/Optimized Double Gaussian Fit afe1.png"
+                                 alt="Optimized double-Gaussian fit for alpha-to-iron 0.0">
+
+                        </a>
+
+                        <figcaption>
+                            Optimized double-Gaussian fit for
+                            [α/Fe] = 0.0.
+                        </figcaption>
+
+                    </figure>
+
+
+                    <figure>
+
+                        <a href="Figures/Optimized Double Gaussian Fit afe2.png"
+                           target="_blank">
+
+                            <img src="Figures/Optimized Double Gaussian Fit afe2.png"
+                                 alt="Optimized double-Gaussian fit for alpha-to-iron 0.2">
+
+                        </a>
+
+                        <figcaption>
+                            Optimized double-Gaussian fit for
+                            [α/Fe] = 0.2.
+                        </figcaption>
+
+                    </figure>
+
+
+                    <figure>
+
+                        <a href="Figures/Optimized Double Gaussian Fit afe3.png"
+                           target="_blank">
+
+                            <img src="Figures/Optimized Double Gaussian Fit afe3.png"
+                                 alt="Optimized double-Gaussian fit for alpha-to-iron 0.4">
+
+                        </a>
+
+                        <figcaption>
+                            Optimized double-Gaussian fit for
+                            [α/Fe] = 0.4.
+                        </figcaption>
+
+                    </figure>
+
+
+                    <figure>
+
+                        <a href="Figures/Optimized Double Gaussian Fit afe4.png"
+                           target="_blank">
+
+                            <img src="Figures/Optimized Double Gaussian Fit afe4.png"
+                                 alt="Optimized double-Gaussian fit for alpha-to-iron 0.6">
+
+                        </a>
+
+                        <figcaption>
+                            Optimized double-Gaussian fit for
+                            [α/Fe] = 0.6.
+                        </figcaption>
+
+                    </figure>
+
+                </div>
+
+
+                <!-- =========================
+                     5. RATIO ANALYSIS
+                     ========================= -->
+
+                <h4>5. Ratio & Excess Absorption Analysis</h4>
+
+                <p>
+                    After obtaining the optimized Gaussian models, I divided
+                    each continuum-normalized spectrum by its corresponding
+                    optimized fit. A ratio of one indicates agreement between
+                    the spectrum and model, while regions below one indicate
+                    absorption stronger than the fitted stellar model.
+                </p>
+
+                <div class="research-figures">
+
+                    <figure>
+
+                        <a href="Figures/Na I D Ratio Spectrum afe0.png"
+                           target="_blank">
+
+                            <img src="Figures/Na I D Ratio Spectrum afe0.png"
+                                 alt="Na I D ratio spectrum for alpha-to-iron minus 0.2">
+
+                        </a>
+
+                        <figcaption>
+                            Ratio analysis for [α/Fe] = -0.2. Shaded regions
+                            indicate absorption below the optimized Gaussian
+                            model.
+                        </figcaption>
+
+                    </figure>
+
+
+                    <figure>
+
+                        <a href="Figures/Na I D Ratio Spectrum afe1.png"
+                           target="_blank">
+
+                            <img src="Figures/Na I D Ratio Spectrum afe1.png"
+                                 alt="Na I D ratio spectrum for alpha-to-iron 0.0">
+
+                        </a>
+
+                        <figcaption>
+                            Ratio analysis for [α/Fe] = 0.0.
+                        </figcaption>
+
+                    </figure>
+
+
+                    <figure>
+
+                        <a href="Figures/Na I D Ratio Spectrum afe2.png"
+                           target="_blank">
+
+                            <img src="Figures/Na I D Ratio Spectrum afe2.png"
+                                 alt="Na I D ratio spectrum for alpha-to-iron 0.2">
+
+                        </a>
+
+                        <figcaption>
+                            Ratio analysis for [α/Fe] = 0.2.
+                        </figcaption>
+
+                    </figure>
+
+
+                    <figure>
+
+                        <a href="Figures/Na I D Ratio Spectrum afe3.png"
+                           target="_blank">
+
+                            <img src="Figures/Na I D Ratio Spectrum afe3.png"
+                                 alt="Na I D ratio spectrum for alpha-to-iron 0.4">
+
+                        </a>
+
+                        <figcaption>
+                            Ratio analysis for [α/Fe] = 0.4.
+                        </figcaption>
+
+                    </figure>
+
+
+                    <figure>
+
+                        <a href="Figures/Na I D Ratio Spectrum afe4.png"
+                           target="_blank">
+
+                            <img src="Figures/Na I D Ratio Spectrum afe4.png"
+                                 alt="Na I D ratio spectrum for alpha-to-iron 0.6">
+
+                        </a>
+
+                        <figcaption>
+                            Ratio analysis for [α/Fe] = 0.6.
+                        </figcaption>
+
+                    </figure>
+
+                </div>
+
+
+                <!-- =========================
+                     RESEARCH PRESENTATION
+                     ========================= -->
+
+                <h3>Research Presentation</h3>
+
+                <p>
+                    I presented the results of this project at the 2026
+                    Summer Research Conference at the University of California,
+                    San Diego (UCSD).
+                </p>
+
+
+                <!-- =========================
+                     CODE
+                     ========================= -->
+
+                <h3>Code</h3>
+
+                <p>
+                    Python code used for the spectral analysis, continuum
+                    fitting, normalization, Gaussian modeling, optimization,
+                    and ratio analysis is available through my GitHub.
+                </p>
+
+                <a class="research-code-link"
+                   href="https://github.com/danielqje"
+                   target="_blank">
+
+                    <i class="fa-brands fa-github"></i>
+                    View My GitHub
+
+                </a>
 
             </div>
 
