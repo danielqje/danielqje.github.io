@@ -409,14 +409,14 @@ a {
    FOOTER
    ========================= */
 
-.research-footer {
+footer {
     width: 100%;
     box-sizing: border-box;
 
     text-align: center;
     padding: 10px 8%;
 
-    background: #05070d;
+    background: #000000;
 }
 
 .image-credit {
