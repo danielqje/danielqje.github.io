@@ -104,7 +104,7 @@ nav {
 }
 
 .about-column {
-    background: rgba(5, 10, 20, 0.70);
+    background: rgba(5, 10, 20, 0.450);
     padding: 35px;
 }
 
@@ -139,7 +139,7 @@ a {
 }
 
 .cap {
-    margin-right: 12px;
+    margin-right: 11px;
 }
 
 footer {
