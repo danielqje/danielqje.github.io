@@ -129,7 +129,7 @@ nav {
 
 .social-links a {
     color: #b9ddff;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .about-column {
@@ -177,10 +177,11 @@ a {
     text-decoration: none;
     font-size: 16.5px;
     color: white;
+    padding-bottom: 3px;
 }
 
 .home-link:hover {
-    text-decoration: underline;
+    border-bottom: 1px solid white;
 }
 
 footer {
