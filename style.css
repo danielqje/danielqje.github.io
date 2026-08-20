@@ -97,7 +97,7 @@ nav {
     background: rgba(0,0,0,0.60);
     padding: 18px 20px;
     border-radius: 12px;
-    margin-top: 5px auto 0 auto;
+    margin: 0 auto;
     width: fit-content;
 
     position: relative;
