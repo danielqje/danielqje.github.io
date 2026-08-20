@@ -32,14 +32,42 @@ nav {
 .nav-links a {
     color: white;
     text-decoration: none;
-
     display: inline-block;
+    position: relative;
+
     transition: transform 0.2s ease;
 }
 
 .nav-links a:hover {
     text-decoration: underline;
     transform: scale(1.08);
+}
+
+.nav-links a:not(.home-link):hover {
+    text-decoration: underline;
+}
+
+.home-link {
+    padding-bottom: 4px;
+}
+
+.home-link::after {
+    content: "";
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    height: 1px;
+    background: white;
+
+    transform: scaleX(0);
+    transition: transform 0.2s ease;
+}
+
+.home-link:hover::after {
+    transform: scaleX(1);
 }
 
 .hero {
@@ -134,6 +162,14 @@ nav {
 .social-links a {
     color: #b9ddff;
     text-decoration: underline;
+
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+    transform: scale(1.08);
 }
 
 .about-column {
