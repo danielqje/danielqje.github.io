@@ -373,6 +373,80 @@ footer {
    MOBILE
    ========================= */
 
+/* =========================
+   RESEARCH FIGURE GALLERY
+   ========================= */
+
+.research-figures {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 25px;
+
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+.research-figures figure {
+    margin: 0;
+}
+
+.research-figures a {
+    display: block;
+}
+
+.research-figures img {
+    width: 100%;
+    height: auto;
+
+    display: block;
+
+    border-radius: 8px;
+
+    transition: transform 0.2s ease;
+}
+
+.research-figures img:hover {
+    transform: scale(1.03);
+}
+
+.research-figures figcaption {
+    margin-top: 10px;
+
+    font-size: 0.9rem;
+    line-height: 1.5;
+
+    opacity: 0.85;
+}
+
+.research-project h4 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+
+    font-size: 1.15rem;
+    color: white;
+}
+
+
+/* Research code link */
+
+.research-code-link {
+    color: #b9ddff;
+    text-decoration: none;
+
+    display: inline-flex;
+    align-items: center;
+
+    gap: 8px;
+
+    transition: transform 0.2s ease;
+}
+
+.research-code-link:hover {
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
 @media (max-width: 800px) {
 
     .hero {
@@ -408,4 +482,9 @@ footer {
     .research-project {
         padding: 20px;
     }
+
+    .research-figures {
+    grid-template-columns: 1fr;
+    }
 }
+
