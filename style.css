@@ -305,6 +305,18 @@ footer {
     line-height: 1.6;
 }
 
+.research-page {
+    min-height: 100vh;
+    padding: 70px 8%;
+
+    background:
+        linear-gradient(rgba(5, 7, 13, 0.82), rgba(5, 7, 13, 0.82)),
+        url("Elliptical Galaxy.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
 @media (max-width: 800px) {
 
     .hero {
