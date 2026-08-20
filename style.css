@@ -409,9 +409,13 @@ a {
    FOOTER
    ========================= */
 
-footer {
+.research-footer {
+    width: 100%;
+    box-sizing: border-box;
+
     text-align: center;
     padding: 10px 8%;
+
     background: #05070d;
 }
 
