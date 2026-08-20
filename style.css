@@ -173,14 +173,14 @@ a {
 
 footer {
     text-align: center;
-    padding: 20px 8%;
+    padding: 10px 8%;
     background: #05070d;
 }
 
 .image-credit {
     font-size: 0.75rem;
     opacity: 0.8;
-    margin: 0.5px;
+    margin: 0;
 }
 
 @media (max-width: 800px) {
