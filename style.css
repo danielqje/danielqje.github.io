@@ -95,7 +95,7 @@ nav {
 
 .profile-info {
     position: relative;
-    padding: 12px 15px;
+    padding: 18px 20px;
     margin: 0 auto;
     width: fit-content;
     z-index: 1;
@@ -105,10 +105,10 @@ nav {
     content: "";
     position: absolute;
 
-    top: 30px;
+    top: 25px;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 5;
 
     background: rgba(0, 0, 0, 0.60);
     border-radius: 12px;
