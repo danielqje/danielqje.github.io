@@ -138,6 +138,10 @@ a {
     color: #8ecbff;
 }
 
+.cap {
+    margin-right: 8px;
+}
+
 footer {
     text-align: center;
     padding: 20px 8%;
@@ -146,7 +150,7 @@ footer {
 
 .image-credit {
     font-size: 0.75rem;
-    opacity: 0.40;
+    opacity: 1;
     margin: 0;
 }
 
