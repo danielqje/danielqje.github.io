@@ -736,25 +736,6 @@ a {
     background: rgba(12, 15, 26, 0.9);
 }
 
-/* =========================
-   FOOTER
-   ========================= */
-
-footer {
-    width: 100%;
-    box-sizing: border-box;
-
-    text-align: center;
-    padding: 10px 8%;
-
-    background: #000000;
-}
-
-.image-credit {
-    font-size: 0.75rem;
-    opacity: 0.8;
-    margin: 0;
-}
 
 /* =========================
    ACADEMICS PAGE
@@ -934,6 +915,28 @@ footer {
 
 .coursework-card li {
     color: white;
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+    width: 100%;
+    box-sizing: border-box;
+
+    text-align: center;
+    padding: 10px 8%;
+
+    background: #000000;
+}
+
+.image-credit {
+    font-size: 0.75rem;
+    opacity: 0.8;
+    margin: 0;
+}
+
 
 /* =========================
    MOBILE
