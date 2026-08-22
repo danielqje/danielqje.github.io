@@ -98,11 +98,11 @@ nav {
     line-height: 1;
 }
 
-.nav-links a:not(.home-link) {
+.nav-links a:not(.home-icon) {
     transition: transform 0.2s ease;
 }
 
-.nav-links a:not(.home-link):hover {
+.nav-links a:not(.home-icon):hover {
     text-decoration: underline;
 
     transform: scale(1.05);
@@ -113,7 +113,7 @@ nav {
    HOME ICON
    ========================= */
 
-.home-link {
+.home-icon {
     width: 22px;
     height: 24px;
 
@@ -127,17 +127,17 @@ nav {
     text-decoration: none;
 }
 
-.home-link i {
+.home-icon i {
     font-size: 16.5px;
 
     transition: transform 0.2s ease;
 }
 
-.home-link:hover i {
+.home-icon:hover i {
     transform: scale(1.15);
 }
 
-.home-link::after {
+.home-icon::after {
     content: "";
 
     position: absolute;
@@ -155,7 +155,7 @@ nav {
     transition: transform 0.2s ease;
 }
 
-.home-link:hover::after {
+.home-icon:hover::after {
     transform: scaleX(1);
 }
 
