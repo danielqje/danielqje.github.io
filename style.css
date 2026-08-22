@@ -478,6 +478,235 @@ a {
     font-size: 0.9rem;
 }
 
+/* ========================================
+   CERTIFICATES & HONORS PAGE
+======================================== */
+
+.credentials-page {
+    min-height: 100vh;
+    padding: 90px 8%;
+}
+
+
+/* PAGE INTRO */
+
+.credentials-intro {
+    max-width: 850px;
+    margin-bottom: 70px;
+}
+
+.credentials-intro h1 {
+    font-size: 3rem;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.credentials-intro > p:last-child {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #d0d0d0;
+}
+
+
+/* SMALL LABELS */
+
+.section-label {
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #a8a8a8;
+    margin-bottom: 5px;
+}
+
+
+/* SECTIONS */
+
+.credentials-section {
+    margin-bottom: 85px;
+}
+
+
+/* SECTION HEADINGS */
+
+.credentials-heading {
+    margin-bottom: 30px;
+}
+
+.credentials-heading h2 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+
+/* ========================================
+   CERTIFICATES
+======================================== */
+
+.certificate-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+
+/* CERTIFICATE CARD */
+
+.certificate-card {
+    padding: 30px;
+
+    background: rgba(8, 10, 18, 0.78);
+
+    border: 1px solid rgba(255, 255, 255, 0.12);
+
+    border-radius: 12px;
+
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease,
+        background 0.25s ease;
+}
+
+
+.certificate-card:hover {
+    transform: translateY(-5px);
+
+    border-color: rgba(255, 255, 255, 0.35);
+
+    background: rgba(12, 15, 26, 0.92);
+}
+
+
+/* SMALL TYPE ABOVE TITLE */
+
+.credential-type {
+    font-size: 0.7rem;
+    letter-spacing: 1.5px;
+    color: #a5a5a5;
+    margin: 0 0 8px 0;
+}
+
+
+/* TITLES */
+
+.certificate-card h3,
+.honor-card h3 {
+    font-size: 1.3rem;
+    margin: 0 0 8px 0;
+}
+
+
+/* ORGANIZATION */
+
+.credential-organization {
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+
+/* DATE */
+
+.credential-date {
+    font-size: 0.9rem;
+    color: #a8a8a8;
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+
+
+/* DESCRIPTION */
+
+.credential-description {
+    color: #cccccc;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+
+/* ========================================
+   CERTIFICATE IMAGES
+======================================== */
+
+.certificate-preview {
+    margin-top: 25px;
+}
+
+.certificate-preview a {
+    display: block;
+}
+
+.certificate-preview img {
+    width: 100%;
+    display: block;
+
+    border-radius: 7px;
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease;
+}
+
+
+.certificate-preview img:hover {
+    transform: scale(1.02);
+
+    border-color: rgba(255, 255, 255, 0.4);
+
+    cursor: pointer;
+}
+
+
+/* TEXT UNDER CERTIFICATE */
+
+.certificate-caption {
+    text-align: center;
+
+    font-size: 0.75rem;
+
+    color: #999999;
+
+    margin-top: 10px;
+}
+
+
+/* ========================================
+   HONORS
+======================================== */
+
+.honors-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+
+/* HONOR CARD */
+
+.honor-card {
+    padding: 30px;
+
+    background: rgba(8, 10, 18, 0.72);
+
+    border: 1px solid rgba(255, 255, 255, 0.12);
+
+    border-radius: 12px;
+
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease,
+        background 0.25s ease;
+}
+
+
+.honor-card:hover {
+    transform: translateY(-5px);
+
+    border-color: rgba(255, 255, 255, 0.35);
+
+    background: rgba(12, 15, 26, 0.9);
+}
+
 /* =========================
    FOOTER
    ========================= */
@@ -547,5 +776,35 @@ footer {
     .academic-skills {
         justify-content: center;
 }
+@media (max-width: 900px) {
+
+    .certificate-grid,
+    .honors-grid {
+        grid-template-columns: 1fr;
+    }
 
 }
+
+
+@media (max-width: 800px) {
+
+    .credentials-page {
+        padding: 60px 6%;
+    }
+
+    .credentials-intro h1 {
+        font-size: 2.3rem;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .certificate-card,
+    .honor-card {
+        padding: 22px;
+    }
+    
+}
+
