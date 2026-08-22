@@ -765,10 +765,10 @@ footer {
 
     background:
         linear-gradient(
-            rgba(5, 7, 13, 0.45),
-            rgba(5, 7, 13, 0.45)
+            rgba(5, 7, 13, 0.20),
+            rgba(5, 7, 13, 0.20)
         ),
-        url("academics-background.jpg");
+        url("Black Hole.jpg");
 
     background-size: cover;
     background-position: center;
