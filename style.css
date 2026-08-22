@@ -907,6 +907,247 @@ a {
     color: white;
 }
 
+/* ======================================== */
+/* PROJECTS PAGE */
+/* ======================================== */
+
+
+.projects-body {
+    margin: 0;
+
+    min-height: 100vh;
+
+    background:
+        linear-gradient(
+            rgba(5, 7, 13, 0.45),
+            rgba(5, 7, 13, 0.45)
+        ),
+        url("Neutron Star.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-attachment: scroll;
+}
+
+
+
+/* ======================================== */
+/* MAIN PROJECTS PAGE */
+/* ======================================== */
+
+.projects-page {
+    min-height: 100vh;
+
+    padding: 120px 8% 40px;
+}
+
+
+.projects-section {
+    max-width: 1000px;
+
+    margin: 0 auto;
+}
+
+
+
+/* ======================================== */
+/* PROJECTS HEADING */
+/* ======================================== */
+
+.projects-heading {
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+
+.projects-heading h1 {
+    color: white;
+
+    font-size: 3rem;
+
+    margin-bottom: 10px;
+}
+
+
+.projects-heading p {
+    color: white;
+
+    font-size: 1.1rem;
+
+    line-height: 1.6;
+}
+
+
+
+/* ======================================== */
+/* PROJECT CARD */
+/* ======================================== */
+
+.project-card {
+    max-width: 800px;
+
+    margin: 0 auto;
+
+    padding: 35px;
+
+    background: rgba(0, 0, 0, 0.75);
+
+    border-radius: 15px;
+}
+
+
+
+/* ======================================== */
+/* PROJECT TITLE */
+/* ======================================== */
+
+.project-content h2 {
+    color: white;
+
+    font-size: 1.8rem;
+
+    margin-bottom: 8px;
+}
+
+
+
+/* ======================================== */
+/* PROJECT TYPE */
+/* ======================================== */
+
+.project-type {
+    color: #bdbdbd;
+
+    font-size: 0.95rem;
+
+    margin-bottom: 20px;
+}
+
+
+
+/* ======================================== */
+/* PROJECT DESCRIPTION */
+/* ======================================== */
+
+.project-description {
+    color: white;
+
+    line-height: 1.7;
+
+    margin-bottom: 25px;
+}
+
+
+
+/* ======================================== */
+/* PROJECT SUBHEADINGS */
+/* ======================================== */
+
+.project-content h3 {
+    color: white;
+
+    margin-bottom: 12px;
+}
+
+
+
+/* ======================================== */
+/* TECHNOLOGY TAGS */
+/* ======================================== */
+
+.project-tags {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    margin-bottom: 30px;
+}
+
+
+.project-tags span {
+    color: white;
+
+    background: rgba(255, 255, 255, 0.12);
+
+    padding: 7px 14px;
+
+    border-radius: 20px;
+
+    font-size: 0.9rem;
+}
+
+
+
+/* ======================================== */
+/* PROJECT HIGHLIGHTS */
+/* ======================================== */
+
+.project-highlights ul {
+    padding-left: 20px;
+
+    margin-bottom: 30px;
+}
+
+
+.project-highlights li {
+    color: white;
+
+    line-height: 1.7;
+
+    margin-bottom: 8px;
+}
+
+
+
+/* ======================================== */
+/* PROJECT LINKS */
+/* ======================================== */
+
+.project-links {
+    display: flex;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+}
+
+
+.project-button {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 10px 18px;
+
+    background: white;
+
+    color: black;
+
+    text-decoration: none;
+
+    border-radius: 7px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+
+.project-button:hover {
+    transform: translateY(-2px);
+
+    background: #dddddd;
+    
+
 /* =========================
    FOOTER / IMAGE CREDIT
    ========================= */
@@ -1024,6 +1265,24 @@ footer {
 
     .coursework-grid {
         grid-template-columns: 1fr;
+    }
+
+}
+
+    @media (max-width: 768px) {
+
+    .projects-page {
+        padding: 110px 5% 40px;
+    }
+
+
+    .projects-heading h1 {
+        font-size: 2.3rem;
+    }
+
+
+    .project-card {
+        padding: 25px;
     }
 
 }
