@@ -516,7 +516,7 @@ a {
 .credentials-intro > p:last-child {
     font-size: 1.05rem;
     line-height: 1.8;
-    color: #d0d0d0;
+    color: white
 }
 
 
@@ -628,7 +628,7 @@ a {
 /* DESCRIPTION */
 
 .credential-description {
-    color: #cccccc;
+    color: white;
     line-height: 1.7;
     margin-bottom: 20px;
 }
