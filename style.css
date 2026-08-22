@@ -1312,31 +1312,27 @@ a {
    ========================= */
 
 footer {
+    width: 100%;
+    box-sizing: border-box;
+
     text-align: center;
 
-    padding: 8px;
+    padding: 8px 8%;
 
-    background: transparent;
+    background: rgba(0, 0, 0, 1);
 }
 
 .image-credit {
-    width: fit-content;
-
-    margin: 0 auto;
-
-    padding: 5px 10px;
+    margin: 0;
 
     font-size: 0.75rem;
 
     color: white;
 
-    background: rgba(0, 0, 0, 0.65);
-
-    border-radius: 4px;
-
     opacity: 0.8;
-}
 
+    background: transparent;
+}
 
 /* =========================
    MOBILE
