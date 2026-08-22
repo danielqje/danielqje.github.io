@@ -419,6 +419,23 @@ a {
     font-size: 2rem;
 }
 
+.experience-page {
+    margin: 0;
+    min-height: 100vh;
+
+    background:
+        linear-gradient(
+            rgba(5, 7, 13, 0.50),
+            rgba(5, 7, 13, 0.50)
+        ),
+        url("Moon Phases.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .academic-experience {
     max-width: 1000px;
     margin: 40px auto 0 auto;
