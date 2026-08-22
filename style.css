@@ -297,8 +297,8 @@ a {
 
     background:
         linear-gradient(
-            rgba(5, 7, 13, 0),
-            rgba(5, 7, 13, 0)
+            rgba(5, 7, 13, 20),
+            rgba(5, 7, 13, 20)
         ),
         url("Elliptical Galaxy.jpg");
 
