@@ -757,6 +757,211 @@ footer {
 }
 
 /* =========================
+   ACADEMICS PAGE
+========================= */
+
+.academics-page {
+    min-height: 100vh;
+
+    background:
+        linear-gradient(
+            rgba(5, 7, 13, 0.45),
+            rgba(5, 7, 13, 0.45)
+        ),
+        url("academics-background.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+
+/* Main academics container */
+
+.academics-container {
+    padding: 70px 8%;
+    color: white;
+}
+
+
+/* Page introduction */
+
+.academics-intro {
+    max-width: 900px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.academics-intro h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.academics-intro p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: white;
+}
+
+
+/* Section titles */
+
+.education-section h2,
+.coursework-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+
+/* Education section */
+
+.education-section {
+    max-width: 1000px;
+    margin: 0 auto 70px auto;
+}
+
+
+/* Education cards */
+
+.education-card {
+    background: rgba(0, 0, 0, 0.65);
+
+    padding: 30px;
+
+    margin-bottom: 25px;
+
+    border-radius: 12px;
+
+    transition: transform 0.3s ease;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+}
+
+.education-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.degree {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.minor {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.education-date {
+    font-size: 0.95rem;
+    color: #cccccc;
+}
+
+
+/* Coursework section */
+
+.coursework-section {
+    max-width: 1200px;
+    margin: 0 auto 70px auto;
+}
+
+
+/* Coursework grid */
+
+.coursework-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(230px, 1fr));
+
+    gap: 25px;
+}
+
+
+/* Coursework cards */
+
+.coursework-card {
+    background: rgba(0, 0, 0, 0.65);
+
+    padding: 30px;
+
+    border-radius: 12px;
+
+    transition:
+        transform 0.3s ease,
+        background 0.3s ease;
+}
+
+.coursework-card:hover {
+    transform: translateY(-5px);
+
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Coursework icons */
+
+.coursework-icon {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: white;
+}
+
+
+/* Coursework titles */
+
+.coursework-card h3 {
+    font-size: 1.35rem;
+    margin-bottom: 15px;
+    color: white;
+}
+
+
+/* Coursework lists */
+
+.coursework-card ul {
+    padding-left: 20px;
+    line-height: 1.9;
+}
+
+.coursework-card li {
+    color: white;
+}
+
+
+/* =========================
+   IMAGE CREDIT
+========================= */
+
+.image-credit {
+    position: fixed;
+
+    bottom: 10px;
+    right: 15px;
+
+    background: rgba(0, 0, 0, 0.6);
+
+    color: white;
+
+    padding: 5px 10px;
+
+    border-radius: 5px;
+
+    font-size: 0.75rem;
+
+    z-index: 10;
+}
+
+
+/* =========================
    MOBILE
    ========================= */
 
@@ -835,5 +1040,21 @@ footer {
         padding: 22px;
     }
     
+}
+
+    @media (max-width: 768px) {
+
+    .academics-container {
+        padding: 50px 6%;
+    }
+
+    .academics-intro h1 {
+        font-size: 2.3rem;
+    }
+
+    .coursework-grid {
+        grid-template-columns: 1fr;
+    }
+
 }
 
