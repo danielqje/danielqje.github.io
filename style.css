@@ -578,8 +578,8 @@ a {
 
     background:
         linear-gradient(
-            rgba(5, 7, 13, 0.50),
-            rgba(5, 7, 13, 0.50)
+            rgba(5, 7, 13, 0.25),
+            rgba(5, 7, 13, 0.25)
         ),
         url("The Moon.jpg");
 
@@ -674,8 +674,8 @@ a {
 
     background:
         linear-gradient(
-            rgba(5, 7, 13, 0.50),
-            rgba(5, 7, 13, 0.50)
+            rgba(5, 7, 13, 0.25),
+            rgba(5, 7, 13, 0.25)
         ),
         url("Night Sky.jpg");
 
