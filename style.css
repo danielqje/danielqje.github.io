@@ -534,7 +534,7 @@ a {
    RESEARCH LINKS
    ========================= */
 
-.research-link {
+.research-links {
     color: #b9ddff;
 
     text-decoration: none;
@@ -548,7 +548,7 @@ a {
     transition: transform 0.2s ease;
 }
 
-.research-code-link:hover {
+.research-links:hover {
     text-decoration: underline;
 
     transform: scale(1.05);
