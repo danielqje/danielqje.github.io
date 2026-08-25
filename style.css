@@ -557,37 +557,81 @@ a {
 
 /* =========================
    EXPERIENCE PAGE
+   PROJECTS-PAGE LAYOUT
    ========================= */
+
+.experience-page {
+    min-height: 100vh;
+
+    margin: 0;
+
+    background:
+        linear-gradient(
+            rgba(5, 7, 13, 0.25),
+            rgba(5, 7, 13, 0.25)
+        ),
+        url("The Moon.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-attachment: scroll;
+}
+
+/*
+Makes the NCAS card slightly wider than the
+regular project card because it has more content.
+*/
+
+.experience-project-card {
+    max-width: 850px;
+}
+
 
 /* =========================
    EXPERIENCE MISSION SECTIONS
    ========================= */
 
-.mission-section {
-    margin-top: 32px;
+.experience-mission {
+    margin-top: 35px;
 
-    padding-top: 28px;
+    padding-top: 30px;
 
-    border-top: 1px solid rgba(185, 221, 255, 0.30);
+    border-top: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+
+/*
+Removes the large top margin normally applied
+to project card headings.
+*/
+
+.experience-mission > h3:first-of-type {
+    margin-top: 0;
 }
 
 
 /* Mission 1 and Mission 2 labels */
 
-.mission-label {
-    width: fit-content;
+.experience-mission-label {
+    display: inline-block;
 
-    margin: 0 0 10px;
+    margin-top: 0;
 
-    padding: 5px 12px;
+    margin-bottom: 12px;
 
-    color: #05070d;
+    padding: 6px 14px;
 
-    background: #b9ddff;
+    color: black;
+
+    background: white;
 
     border-radius: 20px;
 
-    font-size: 0.78rem;
+    font-size: 0.8rem;
 
     font-weight: bold;
 
@@ -597,68 +641,34 @@ a {
 }
 
 
-/* Removes extra space above mission titles */
+/* =========================
+   EXPERIENCE PARAGRAPHS
+   ========================= */
 
-.mission-section > h3:first-of-type {
-    margin-top: 0;
+.experience-mission .project-description {
+    margin-bottom: 20px;
 }
 
 
 /* =========================
-   EXPERIENCE DOCUMENT LINKS
+   EXPERIENCE SKILLS
    ========================= */
 
-.experience-links {
-    display: flex;
-
-    flex-wrap: wrap;
-
-    gap: 12px;
-
-    margin-top: 24px;
+.experience-skills-section {
+    padding-bottom: 0;
 }
 
 
-/* Individual document buttons */
+/*
+Removes the bottom margin from the last set
+of skill tags.
+*/
 
-.experience-button {
-    display: inline-flex;
-
-    align-items: center;
-
-    gap: 9px;
-
-    padding: 10px 15px;
-
-    color: #05070d;
-
-    background: #b9ddff;
-
-    border: 1px solid #b9ddff;
-
-    border-radius: 7px;
-
-    font-size: 0.9rem;
-
-    font-weight: bold;
-
-    text-decoration: none;
-
-    transition:
-        transform 0.2s ease,
-        background 0.2s ease;
+.experience-skills-section .project-tags {
+    margin-bottom: 0;
 }
 
 
-/* Document button hover effect */
-
-.experience-button:hover {
-    color: #05070d;
-
-    background: white;
-
-    transform: scale(1.04);
-}
 
 
 /* ========================================
@@ -1471,21 +1481,36 @@ footer {
 }
 
 /* =========================
-   EXPERIENCE MOBILE LAYOUT
+   EXPERIENCE MOBILE
    ========================= */
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 
-    .experience-links {
+    .experience-project-card {
+        padding: 25px;
+    }
+
+    .experience-mission {
+        margin-top: 28px;
+
+        padding-top: 25px;
+    }
+
+    .experience-mission-label {
+        font-size: 0.75rem;
+    }
+
+    .experience-mission .project-links {
         flex-direction: column;
     }
 
-    .experience-button {
+    .experience-mission .project-button {
         width: 100%;
 
         box-sizing: border-box;
 
         justify-content: center;
     }
+
 }
 
