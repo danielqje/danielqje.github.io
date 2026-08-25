@@ -559,22 +559,14 @@ a {
    ACADEMIC EXPERIENCE PAGE
    ========================= */
 
-.academic-page {
-    min-height: 100vh;
-
-    margin: 0;
-
-    padding: 90px 8% 70px;
-}
-
-.academic-page h1 {
-    font-size: 2rem;
-}
+/* =========================
+   EXPERIENCE PAGE
+   ========================= */
 
 .experience-page {
-    margin: 0;
-
     min-height: 100vh;
+
+    margin: 0;
 
     background:
         linear-gradient(
@@ -592,55 +584,96 @@ a {
     background-attachment: scroll;
 }
 
-.academic-experience {
+
+/* =========================
+   EXPERIENCE CONTAINER
+   ========================= */
+
+.experience-container {
     max-width: 1000px;
 
-    margin: 40px auto 0 auto;
+    margin: 0 auto;
 
-    background: rgba(5, 10, 20, 0.60);
-
-    padding: 30px;
-
-    border-radius: 12px;
+    padding: 110px 8% 70px;
 }
 
-.academic-experience h2 {
-    color: #b9ddff;
-
-    margin-bottom: 5px;
-}
-
-.academic-experience h2 i {
+.experience-container > h1 {
     color: white;
 
-    margin-right: 10px;
+    font-size: 2rem;
 
-    font-size: 20px;
-}
-
-.academic-experience h3 {
-    color: #b9ddff;
-
-    margin-top: 35px;
-}
-
-.academic-program {
-    opacity: 0.8;
-
-    margin-top: 0;
-}
-
-.academic-experience p,
-.academic-experience li {
-    line-height: 1.6;
+    margin-bottom: 25px;
 }
 
 
 /* =========================
-   ACADEMIC SKILLS
+   EXPERIENCE CARDS
    ========================= */
 
-.academic-skills {
+.experience-card {
+    margin-bottom: 35px;
+
+    padding: 30px;
+
+    background: rgba(5, 10, 20, 0.60);
+
+    border-radius: 12px;
+
+    color: white;
+}
+
+.experience-card h2 {
+    color: #b9ddff;
+
+    margin-top: 0;
+
+    margin-bottom: 8px;
+}
+
+.experience-card h3 {
+    color: #b9ddff;
+
+    margin-top: 25px;
+
+    margin-bottom: 10px;
+}
+
+.experience-card p,
+.experience-card li {
+    line-height: 1.6;
+}
+
+.experience-card ul {
+    padding-left: 25px;
+}
+
+.experience-card li {
+    margin-bottom: 8px;
+}
+
+
+/* =========================
+   EXPERIENCE DATE
+   ========================= */
+
+.experience-date {
+    margin-top: 0;
+
+    margin-bottom: 20px;
+
+    color: white;
+
+    opacity: 0.8;
+
+    font-style: italic;
+}
+
+
+/* =========================
+   EXPERIENCE SKILLS
+   ========================= */
+
+.experience-skills {
     display: flex;
 
     flex-wrap: wrap;
@@ -650,18 +683,45 @@ a {
     margin-top: 20px;
 }
 
-.academic-skills span {
+.experience-skills span {
+    padding: 7px 12px;
+
     background: rgba(185, 221, 255, 0.12);
 
     border: 1px solid rgba(185, 221, 255, 0.35);
 
     border-radius: 20px;
 
-    padding: 7px 12px;
-
     font-size: 0.9rem;
 }
 
+
+/* =========================
+   EXPERIENCE PAGE — MOBILE
+   ========================= */
+
+@media (max-width: 768px) {
+
+    .experience-container {
+        padding: 100px 20px 60px;
+    }
+
+    .experience-card {
+        padding: 22px;
+    }
+
+    .experience-container > h1 {
+        font-size: 1.7rem;
+    }
+
+    .experience-card h2 {
+        font-size: 1.3rem;
+    }
+
+    .experience-card h3 {
+        font-size: 1.05rem;
+    }
+}
 
 /* ========================================
    CERTIFICATES & HONORS PAGE
