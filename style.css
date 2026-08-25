@@ -556,172 +556,110 @@ a {
 
 
 /* =========================
-   ACADEMIC EXPERIENCE PAGE
-   ========================= */
-
-/* =========================
    EXPERIENCE PAGE
    ========================= */
 
-.experience-page {
-    min-height: 100vh;
-
-    margin: 0;
-
-    background:
-        linear-gradient(
-            rgba(5, 7, 13, 0.25),
-            rgba(5, 7, 13, 0.25)
-        ),
-        url("The Moon.jpg");
-
-    background-size: cover;
-
-    background-position: center;
-
-    background-repeat: no-repeat;
-
-    background-attachment: scroll;
-}
-
-
 /* =========================
-   EXPERIENCE CONTAINER
+   EXPERIENCE MISSION SECTIONS
    ========================= */
 
-.experience-container {
-    max-width: 1000px;
+.mission-section {
+    margin-top: 32px;
 
-    margin: 0 auto;
+    padding-top: 28px;
 
-    padding: 110px 8% 70px;
-}
-
-.experience-container > h1 {
-    color: white;
-
-    font-size: 2rem;
-
-    margin-bottom: 25px;
+    border-top: 1px solid rgba(185, 221, 255, 0.30);
 }
 
 
-/* =========================
-   EXPERIENCE CARDS
-   ========================= */
+/* Mission 1 and Mission 2 labels */
 
-.experience-card {
-    margin-bottom: 35px;
+.mission-label {
+    width: fit-content;
 
-    padding: 30px;
+    margin: 0 0 10px;
 
-    background: rgba(5, 10, 20, 0.60);
+    padding: 5px 12px;
 
-    border-radius: 12px;
+    color: #05070d;
 
-    color: white;
+    background: #b9ddff;
+
+    border-radius: 20px;
+
+    font-size: 0.78rem;
+
+    font-weight: bold;
+
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
 }
 
-.experience-card h2 {
-    color: #b9ddff;
 
+/* Removes extra space above mission titles */
+
+.mission-section > h3:first-of-type {
     margin-top: 0;
-
-    margin-bottom: 8px;
-}
-
-.experience-card h3 {
-    color: #b9ddff;
-
-    margin-top: 25px;
-
-    margin-bottom: 10px;
-}
-
-.experience-card p,
-.experience-card li {
-    line-height: 1.6;
-}
-
-.experience-card ul {
-    padding-left: 25px;
-}
-
-.experience-card li {
-    margin-bottom: 8px;
 }
 
 
 /* =========================
-   EXPERIENCE DATE
+   EXPERIENCE DOCUMENT LINKS
    ========================= */
 
-.experience-date {
-    margin-top: 0;
-
-    margin-bottom: 20px;
-
-    color: white;
-
-    opacity: 0.8;
-
-    font-style: italic;
-}
-
-
-/* =========================
-   EXPERIENCE SKILLS
-   ========================= */
-
-.experience-skills {
+.experience-links {
     display: flex;
 
     flex-wrap: wrap;
 
-    gap: 10px;
+    gap: 12px;
 
-    margin-top: 20px;
+    margin-top: 24px;
 }
 
-.experience-skills span {
-    padding: 7px 12px;
 
-    background: rgba(185, 221, 255, 0.12);
+/* Individual document buttons */
 
-    border: 1px solid rgba(185, 221, 255, 0.35);
+.experience-button {
+    display: inline-flex;
 
-    border-radius: 20px;
+    align-items: center;
+
+    gap: 9px;
+
+    padding: 10px 15px;
+
+    color: #05070d;
+
+    background: #b9ddff;
+
+    border: 1px solid #b9ddff;
+
+    border-radius: 7px;
 
     font-size: 0.9rem;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease;
 }
 
 
-/* =========================
-   EXPERIENCE PAGE — MOBILE
-   ========================= */
+/* Document button hover effect */
 
-@media (max-width: 768px) {
+.experience-button:hover {
+    color: #05070d;
 
-    .experience-container {
-        padding: 100px 20px 60px;
-    }
+    background: white;
 
-    .experience-card {
-        padding: 22px;
-    }
-
-    .experience-container > h1 {
-        font-size: 1.7rem;
-    }
-
-    .experience-card h2 {
-        font-size: 1.3rem;
-    }
-
-    .experience-card h3 {
-        font-size: 1.05rem;
-    }
+    transform: scale(1.04);
 }
+
 
 /* ========================================
    CERTIFICATES & HONORS PAGE
@@ -1531,3 +1469,23 @@ footer {
     }
 
 }
+
+/* =========================
+   EXPERIENCE MOBILE LAYOUT
+   ========================= */
+
+@media (max-width: 600px) {
+
+    .experience-links {
+        flex-direction: column;
+    }
+
+    .experience-button {
+        width: 100%;
+
+        box-sizing: border-box;
+
+        justify-content: center;
+    }
+}
+
