@@ -1,6 +1,4 @@
-/* =========================
-   GLOBAL
-   ========================= */
+                                       /* GLOBAL*/
 
 html {
     margin: 0;
@@ -10,7 +8,7 @@ html {
 
     background: #05070d;
 
-    /* Keeps page width consistent between pages */
+                                  /*KEEPS PAGE WIDTH CONSISTENT BETWEEN PAGES*/
     overflow-y: scroll;
 }
 
@@ -27,9 +25,7 @@ body {
 }
 
 
-/* =========================
-   HEADER / NAVIGATION
-   ========================= */
+                                          /*HEADER NAVIGATION*/
 
 header {
 
@@ -104,9 +100,7 @@ nav {
 }
 
 
-/* =========================
-   HOME ICON
-   ========================= */
+                                                /*HOME ICON*/
 
 .home-icon {
     width: 22px;
@@ -155,9 +149,7 @@ nav {
 }
 
 
-/* =========================
-   HOME PAGE
-   ========================= */
+                                                   /*HOME PAGE*/
 
 .hero {
     min-height: 100vh;
@@ -320,9 +312,7 @@ nav {
 }
 
 
-/* =========================
-   GENERAL PAGE STYLING
-   ========================= */
+                                             /*GENERAL PAGE STYLE*/
 
 section:not(.hero):not(.research-page) {
     max-width: 1000px;
@@ -353,9 +343,7 @@ a {
 }
 
 
-/* =========================
-   CONTACT PAGE
-   ========================= */
+                                             /*CONTACT PAGE*/
 
 .contact-page {
     max-width: 900px;
@@ -402,9 +390,7 @@ a {
 }
 
 
-/* =========================
-   RESEARCH PAGE
-   ========================= */
+                                                   /*RESEARCH PAGE*/
 
 .research-page {
     min-height: 100vh;
@@ -479,9 +465,7 @@ a {
 }
 
 
-/* =========================
-   RESEARCH FIGURES
-   ========================= */
+                                                /*RESEARCH FIGURES*/
 
 .research-figures {
     display: grid;
@@ -530,9 +514,7 @@ a {
 }
 
 
-/* =========================
-   RESEARCH LINKS
-   ========================= */
+                                                         /*RESEARCH LINKs*/
 
 .research-links {
     color: #b9ddff;
@@ -555,10 +537,7 @@ a {
 }
 
 
-/* =========================
-   EXPERIENCE PAGE
-   PROJECTS-PAGE LAYOUT
-   ========================= */
+                                                   /*EXPERIENCE PAGE*/
 
 .experience-page {
     min-height: 100vh;
@@ -581,19 +560,14 @@ a {
     background-attachment: scroll;
 }
 
-/*
-Makes the NCAS card slightly wider than the
-regular project card because it has more content.
-*/
+      /*Makes the NCAS card slightly wider than the regular project card because it has more content.*/
 
 .experience-project-card {
     max-width: 850px;
 }
 
 
-/* =========================
-   EXPERIENCE MISSION SECTIONS
-   ========================= */
+                                                /*MISSION SECTIONS*/
 
 .experience-mission {
     margin-top: 35px;
@@ -604,17 +578,14 @@ regular project card because it has more content.
 }
 
 
-/*
-Removes the large top margin normally applied
-to project card headings.
-*/
+                           /*Removes the large top margin normally applied to project card headings.*/
 
 .experience-mission > h3:first-of-type {
     margin-top: 0;
 }
 
 
-/* Mission 1 and Mission 2 labels */
+                                          /*MISSION 1 & 2 LABELS*/
 
 .experience-mission-label {
     display: inline-block;
@@ -641,28 +612,21 @@ to project card headings.
 }
 
 
-/* =========================
-   EXPERIENCE PARAGRAPHS
-   ========================= */
+                                          /*EXPERIENCE PARAGRAPHS*/
 
 .experience-mission .project-description {
     margin-bottom: 20px;
 }
 
 
-/* =========================
-   EXPERIENCE SKILLS
-   ========================= */
+                                          /*EXPERIENCE SKILLS*/
 
 .experience-skills-section {
     padding-bottom: 0;
 }
 
 
-/*
-Removes the bottom margin from the last set
-of skill tags.
-*/
+                           /*Removes the bottom margin from the last set of skill tags.*/
 
 .experience-skills-section .project-tags {
     margin-bottom: 0;
@@ -671,9 +635,7 @@ of skill tags.
 
 
 
-/* ========================================
-   CERTIFICATES & HONORS PAGE
-   ======================================== */
+                                          /*CERTIFICATES & HONORS PAGE*/
 
 .credentials-page {
     min-height: 100vh;
@@ -697,9 +659,7 @@ of skill tags.
 }
 
 
-/* =========================
-   CREDENTIALS INTRO
-   ========================= */
+                                          /*CREDENTIALS INTRO*/
 
 .credentials-intro {
     max-width: 850px;
@@ -724,9 +684,7 @@ of skill tags.
 }
 
 
-/* =========================
-   SMALL LABELS
-   ========================= */
+                                                /*SMALL LABELS*/
 
 .section-label {
     font-size: 0.75rem;
@@ -741,9 +699,7 @@ of skill tags.
 }
 
 
-/* =========================
-   CREDENTIAL SECTIONS
-   ========================= */
+                                             /*CREDENTIAL SECTIONS*/
 
 .credentials-section {
     margin-bottom: 85px;
@@ -760,9 +716,7 @@ of skill tags.
 }
 
 
-/* =========================
-   CERTIFICATES
-   ========================= */
+                                             /*CERTIFICATES*/
 
 .certificate-grid {
     display: grid;
@@ -837,9 +791,7 @@ of skill tags.
 }
 
 
-/* =========================
-   CERTIFICATE IMAGES
-   ========================= */
+                                             /*CERTIFICATE IMAGES*/
 
 .certificate-preview {
     margin-top: 25px;
@@ -882,9 +834,7 @@ of skill tags.
 }
 
 
-/* =========================
-   HONORS
-   ========================= */
+                                                      /*HONORS*/
 
 .honors-grid {
     display: grid;
@@ -918,9 +868,7 @@ of skill tags.
 }
 
 
-/* =========================
-   ACADEMICS PAGE
-   ========================= */
+                                                   /*ACADEMICS PAGE*/
 
 .academics-page {
     min-height: 100vh;
@@ -970,9 +918,7 @@ of skill tags.
 }
 
 
-/* =========================
-   ACADEMICS SECTION TITLES
-   ========================= */
+                                          /*ACADEMICS SECTION TITLES*/
 
 .education-section h2,
 .coursework-section h2 {
@@ -984,9 +930,7 @@ of skill tags.
 }
 
 
-/* =========================
-   EDUCATION SECTION
-   ========================= */
+                                                /*EDUCATION SECTION*/
 
 .education-section {
     max-width: 1000px;
@@ -1043,9 +987,7 @@ of skill tags.
 }
 
 
-/* =========================
-   COURSEWORK SECTION
-   ========================= */
+                                                /*COURSEWORK SECTION*/
 
 .coursework-section {
     max-width: 1200px;
@@ -1099,9 +1041,7 @@ of skill tags.
 }
 
 
-/* ========================================
-   PROJECTS PAGE
-   ======================================== */
+                                                /*PROJECTS PAGE*/
 
 .projects-body {
     margin: 0;
@@ -1125,9 +1065,7 @@ of skill tags.
 }
 
 
-/* =========================
-   MAIN PROJECTS PAGE
-   ========================= */
+                                                /*MAIN PROJECTS PAGE*/
 
 .projects-page {
     min-height: 100vh;
@@ -1144,9 +1082,7 @@ of skill tags.
 }
 
 
-/* =========================
-   PROJECTS HEADING
-   ========================= */
+                                                /*PROJECTS HEADING*/
 
 .projects-heading {
     text-align: center;
@@ -1171,9 +1107,7 @@ of skill tags.
 }
 
 
-/* =========================
-   PROJECT CARD
-   ========================= */
+                                                   /*PROJECT CARD*/
 
 .project-card {
     max-width: 800px;
@@ -1188,9 +1122,7 @@ of skill tags.
 }
 
 
-/* =========================
-   PROJECT TITLE
-   ========================= */
+                                                   /*PROJECT TITLE*/
 
 .project-content h2 {
     color: white;
@@ -1201,9 +1133,7 @@ of skill tags.
 }
 
 
-/* =========================
-   PROJECT TYPE
-   ========================= */
+                                                      /*PROJECT TYPE*/
 
 .project-type {
     color: #bdbdbd;
@@ -1214,9 +1144,7 @@ of skill tags.
 }
 
 
-/* =========================
-   PROJECT DESCRIPTION
-   ========================= */
+                                             /*PROJECT DESCRIPTION*/
 
 .project-description {
     color: white;
@@ -1227,9 +1155,7 @@ of skill tags.
 }
 
 
-/* =========================
-   PROJECT SUBHEADINGS
-   ========================= */
+                                             /*PROJECT SUBHEADINGS*/
 
 .project-content h3 {
     color: white;
@@ -1238,9 +1164,7 @@ of skill tags.
 }
 
 
-/* =========================
-   TOOLS TAGS
-   ========================= */
+                                                   /*TOOLS TAGS*/
 
 .project-tags {
     display: flex;
@@ -1265,9 +1189,7 @@ of skill tags.
 }
 
 
-/* =========================
-   PROJECT HIGHLIGHTS
-   ========================= */
+                                                      /*PROJECT HIGHLIGHTS*/
 
 .project-highlights ul {
     padding-left: 20px;
@@ -1284,9 +1206,7 @@ of skill tags.
 }
 
 
-/* =========================
-   PROJECT LINKS
-   ========================= */
+                                                /*PROJECT LINKS*/
 
 .project-links {
     display: flex;
@@ -1325,9 +1245,7 @@ of skill tags.
 }
 
 
-/* =========================
-   FOOTER / IMAGE CREDIT
-   ========================= */
+                                                   /*FOOTER*/
 
 footer {
     width: 100%;
@@ -1354,9 +1272,7 @@ footer {
 }
 
 
-/* =========================
-   MOBILE
-   ========================= */
+                                                      /*MOBILE VIEW*/
 
 @media (max-width: 800px) {
 
@@ -1402,9 +1318,7 @@ footer {
 }
 
 
-/* =========================
-   CERTIFICATES MOBILE
-   ========================= */
+                                                /*CERTIFICATES MOBILE*/
 
 @media (max-width: 900px) {
 
@@ -1439,9 +1353,7 @@ footer {
 }
 
 
-/* =========================
-   ACADEMICS MOBILE
-   ========================= */
+                                                /*ACADEMICS MOBILE*/
 
 @media (max-width: 768px) {
 
@@ -1460,9 +1372,7 @@ footer {
 }
 
 
-/* =========================
-   HEADER MOBILE
-   ========================= */
+                                                      /*HEADER MOBILE*/
 
 @media (max-width: 800px) {
 
