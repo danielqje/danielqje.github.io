@@ -1,4 +1,4 @@
-                                       /* GLOBAL*/
+                                             /* GLOBAL*/
 
 html {
     margin: 0;
@@ -6,7 +6,7 @@ html {
 
     min-height: 100%;
 
-    background: #05070d;
+    background: #05070d; /*Extreme dark blue-black*/
 
                                   /*KEEPS PAGE WIDTH CONSISTENT BETWEEN PAGES*/
     overflow-y: scroll;
@@ -272,7 +272,7 @@ nav {
 }
 
 .social-links a {
-    color: #b9ddff;
+    color: #b9ddff; /*Icy blue*/
 
     text-decoration: none;
 
@@ -331,7 +331,7 @@ section h3 {
 }
 
 a {
-    color: #8ecbff;
+    color: #8ecbff; /*Sky blue*/
 }
 
 .cap {
@@ -693,7 +693,7 @@ a {
 
     text-transform: uppercase;
 
-    color: #a8a8a8;
+    color: #a8a8a8; /*Darkgray*/
 
     margin-bottom: 5px;
 }
@@ -754,7 +754,7 @@ a {
 
     letter-spacing: 1.5px;
 
-    color: #a5a5a5;
+    color: #a5a5a5; /*Darkgray*/
 
     margin: 0 0 8px 0;
 }
@@ -828,7 +828,7 @@ a {
 
     font-size: 0.75rem;
 
-    color: #999999;
+    color: #999999; /*Gray*/
 
     margin-top: 10px;
 }
@@ -983,7 +983,7 @@ a {
 .education-date {
     font-size: 0.95rem;
 
-    color: #cccccc;
+    color: #cccccc; /*Lightgray*/
 }
 
 
@@ -1136,7 +1136,7 @@ a {
                                                       /*PROJECT TYPE*/
 
 .project-type {
-    color: #bdbdbd;
+    color: #bdbdbd; /*Silver*/
 
     font-size: 0.95rem;
 
@@ -1241,7 +1241,7 @@ a {
 .project-button:hover {
     transform: translateY(-2px);
 
-    background: #dddddd;
+    background: #dddddd; /*gainsboro*/
 }
 
 
